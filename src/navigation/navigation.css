@@ -1,0 +1,25 @@
+/* NavigationBar.css #DFC5E0*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    max-height: 40px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+  }
+  
+  .nav-links a:hover {
+    color: black;
+  }
+  

@@ -1,0 +1,84 @@
+/* PatientList.css */
+.patient-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+.section {
+  margin-bottom: 10px;
+}
+.patient{
+  display: flex;
+  flex-direction: column;
+}
+.patient-box {
+  width: calc(33.33% - 80px); /* Adjust box width to fit three boxes in a row with spacing */
+  margin-right: 30px;
+  margin-bottom: 20px;
+  background-color: #DFC5E0;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.heading1{
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+}
+.heading2{
+  font-size: x-large;
+  font-weight: light;
+  text-align: center;
+  color: grey;
+}
+.patient-box:hover{
+  background-color:#630342;
+  color: azure;
+}
+.patient-list{
+  margin: 20px;
+  margin-left: 7%;
+}
+.patient-list h2 {
+  margin-bottom: 10px;
+}
+
+.patient-list-description {
+  margin-bottom: 20px;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: #630342;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.header{
+  margin-top: 2%;
+  margin-left: 8%;
+}
+.patient-box:hover .circle {
+  background-color: #DFC5E0;
+  color: black;
+}
+
+.info {
+  flex: 1;
+  padding-left: 10px;
+}
+
+.info > div {
+  margin-bottom: 5px;
+}
+
+.info svg {
+  margin-right: 5px;
+}
